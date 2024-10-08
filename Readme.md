@@ -28,8 +28,56 @@ if img.disposal_method == 2:  # 2 means clear to background
 
 This code ensures that for frames with a disposal method of 2 (which means "clear to background"), we handle the transparency correctly. By doing this for each frame, we maintain the original behavior where only one butterfly position is visible at a time.
 
+## Resizing Results
+
+The GIF resizing process maintained the smooth animation of the flying butterfly. It also in significantly reducing the file size. Here are the results:
+
+- Original GIF size: 554.32 KB
+- Resized GIF size: 113.34 KB
+
+This represents a size reduction of approximately 79.55%, while preserving the essential animation quality.
+
+### Visual Comparison
+
+To better illustrate the results, here are the original and resized GIFs:
+
+![Original Flying Butterfly](Gif_Keep_Flying.gif)
+*Original GIF (554.32 KB)*
+
+![Resized Flying Butterfly](Resized_Keep_Flying.gif)
+*Resized GIF (113.34 KB)*
+
+As you can see, the resized GIF maintains the smooth flying effect of the butterfly while being significantly smaller in file size. This makes it more suitable for web applications, faster loading times, and reduced storage requirements.
+
+### Key Achievements
+
+1. **Preserved Animation Quality**: The flying effect of the butterfly remains smooth and intact in the resized version.
+2. **Significant Size Reduction**: Achieved a 79.55% reduction in file size.
+3. **Maintained Transparency**: The background transparency of the GIF was preserved during resizing.
+4. **Improved Usability**: The smaller file size makes the GIF more versatile for various digital platforms while retaining its visual appeal.
+
 ### The Result
+The resized GIF behaved just like the original. I could see the butterfly flying again.
 
-After implementing this solution, the resized GIF behaved just like the original. Once again, I could see a single butterfly that appeared to move smoothly across the frame, recreating the flying effect I originally had.
+## Try It Out!
 
-This experience taught me the importance of frame disposal methods in animated GIFs and how crucial they are for creating smooth animations, especially for effects like my flying butterfly.
+Want to resize your own GIFs while preserving smooth animations? You can use the same script I developed for this project!
+
+To get started:
+
+1. Check out the [GIF Resizer Script](gif_resizer.py) in this repository.
+2. Download the script to your local machine.
+3. Make sure you have Python and Pillow installed (`pip install Pillow`).
+4. Place your GIF in the same directory as the script.
+5. Modify the script to use your GIF's filename and desired dimensions.
+6. Run the script and see your resized GIF!
+
+Feel free to experiment with different sizes and let me know how it works for your GIFs. If you encounter any issues or have suggestions for improvements, please open an issue in this repository.
+
+Happy GIF resizing!
+
+
+
+
+
+
