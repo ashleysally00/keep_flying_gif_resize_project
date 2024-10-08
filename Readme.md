@@ -2,7 +2,7 @@
 
 ## The Challenge and Solution
 
-I created a flying butterfly gif using frame-by-frame animation techniques in Photoshope and Procreate. Then I decided I wanted to analyze the butterfly gif and try to resize it using python. 
+I created a flying butterfly gif using frame-by-frame animation techniques in Photoshope and Procreate. Then I decided I wanted to analyze the butterfly gif and try to resize it using Python. 
 When I first attempted a resize, I encountered an unexpected issue. Here's what happened.
 
 ### The Problem
