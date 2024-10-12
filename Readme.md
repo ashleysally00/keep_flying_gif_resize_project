@@ -74,6 +74,7 @@ To get started:
 4. Place your GIF in the same directory as the script.
 5. Modify the script to use your GIF's filename and desired dimensions.
 6. Run the script and see your resized GIF!
+7. Read more detailed [instructions here](gif_resizer_instructions.md).
 
 Feel free to experiment with different sizes and let me know how it works for your GIFs. If you encounter any issues or have suggestions for improvements, please open an issue in this repository.
 
