@@ -48,6 +48,8 @@ This represents a size reduction of approximately 79.55%, while preserving the e
 
 To better illustrate the results, here is the properly resized GIF:
 
+<img src="improved_resized_Gif_Keep_Flying.gif" alt=“Improved resized gif width="200" />
+
 As you can see, the resized GIF maintains the smooth flying effect of the butterfly while being significantly smaller in file size. This makes it more suitable for web applications, faster loading times, and reduced storage requirements.
 
 ### Key Achievements
