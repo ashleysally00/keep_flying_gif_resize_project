@@ -9,6 +9,12 @@ When I first attempted a resize, I encountered an unexpected issue. Here's what 
 
 In my original "Gif_Keep_Flying.gif", the butterfly appeared to be flying smoothly. This effect was achieved by showing only one butterfly in one position at any given time. Each subsequent frame would show what looked like the same butterfly, but in a slightly different position, creating the illusion of movement.
 
+
+
+<img src="Gif_Keep_Flying.gif" alt="Original GIF demo" width="200" />
+
+
+
 However, when I initially resized the GIF, the result was quite different. Instead of seeing a single butterfly moving across the frame, I saw all the positions of the flying butterfly displayed simultaneously. This completely ruined the flying effect, as the butterfly no longer appeared to move - instead, it looked like multiple static butterflies were present on the screen at once.
 
 ### Understanding the Issue
