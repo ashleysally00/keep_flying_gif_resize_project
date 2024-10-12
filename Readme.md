@@ -10,12 +10,13 @@ When I first attempted a resize, I encountered an unexpected issue. Here's what 
 In my original "Gif_Keep_Flying.gif", the butterfly appeared to be flying smoothly. This effect was achieved by showing only one butterfly in one position at any given time. Each subsequent frame would show what looked like the same butterfly, but in a slightly different position, creating the illusion of movement.
 
 
-
 <img src="Gif_Keep_Flying.gif" alt="Original GIF demo" width="200" />
 
-
+### The First Resize 
 
 However, when I initially resized the GIF, the result was quite different. Instead of seeing a single butterfly moving across the frame, I saw all the positions of the flying butterfly displayed simultaneously. This completely ruined the flying effect, as the butterfly no longer appeared to move - instead, it looked like multiple static butterflies were present on the screen at once.
+
+<img src="pillow_resized_Gif_Keep_Flying.gif" alt="Resized GIF demo" width="200" />
 
 ### Understanding the Issue
 
@@ -45,13 +46,7 @@ This represents a size reduction of approximately 79.55%, while preserving the e
 
 ### Visual Comparison
 
-To better illustrate the results, here are the original and resized GIFs:
-
-![Original Flying Butterfly](Gif_Keep_Flying.gif)
-*Original GIF (554.32 KB)*
-
-![Resized Flying Butterfly](Resized_Keep_Flying.gif)
-*Resized GIF (113.34 KB)*
+To better illustrate the results, here is the properly resized GIF:
 
 As you can see, the resized GIF maintains the smooth flying effect of the butterfly while being significantly smaller in file size. This makes it more suitable for web applications, faster loading times, and reduced storage requirements.
 
