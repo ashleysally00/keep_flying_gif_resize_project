@@ -37,7 +37,7 @@ This code ensures that for frames with a disposal method of 2 (which means "clea
 
 ## Resizing Results
 
-The GIF resizing process maintained the smooth animation of the flying butterfly. It also in significantly reducing the file size. Here are the results:
+The GIF resizing process maintained the smooth animation of the flying butterfly. It also significantly reduces the file size. Here are the results:
 
 - Original GIF size: 554.32 KB
 - Resized GIF size: 113.34 KB
